@@ -30,7 +30,7 @@ namespace SampleApp
         {
             ChatHistory history = new ChatHistory();
 
-            var modelID = "mistral-large-latest";
+            var modelID = "mistral-large-latest model";
             var apiKey = " ";
             var builder = Kernel.CreateBuilder();
 
