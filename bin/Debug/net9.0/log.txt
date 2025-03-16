@@ -1,0 +1,374 @@
+2025-03-15 14:27:30.650 [Information] DeepgramWsClientOptions: KeepAlive: False
+2025-03-15 14:27:30.672 [Information] DeepgramWsClientOptions: OnPrem: False
+2025-03-15 14:27:30.672 [Information] DeepgramWsClientOptions: APIVersion: v1
+2025-03-15 14:27:30.674 [Warning] DeepgramWsClientOptions: API KEY environment variable not set
+2025-03-15 14:27:30.676 [Error] DeepgramWsClientOptions: Deepgram API Key is invalid
+2025-03-15 14:27:49.884 [Information] DeepgramWsClientOptions: KeepAlive: False
+2025-03-15 14:27:49.908 [Information] DeepgramWsClientOptions: OnPrem: False
+2025-03-15 14:27:49.909 [Information] DeepgramWsClientOptions: APIVersion: v1
+2025-03-15 14:27:49.914 [Information] DeepgramWsClientOptions: WS BaseAddress does not contain API version: api.deepgram.com
+2025-03-15 14:27:49.915 [Information] DeepgramWsClientOptions: BaseAddress does not contain protocol: api.deepgram.com/v1
+2025-03-15 14:27:49.917 [Information] DeepgramWsClientOptions: BaseAddress: wss://api.deepgram.com/v1
+2025-03-15 14:27:49.978 [Information] Connect: options:
+{
+  "model": "aura-asteria-en",
+  "encoding": "linear16",
+  "sample_rate": 48000
+}
+2025-03-15 14:27:49.988 [Information] Connect: Using default connect cancellation token
+2025-03-15 14:46:25.900 [Information] DeepgramHttpClientOptions: OnPrem: False
+2025-03-15 14:46:25.923 [Information] DeepgramHttpClientOptions: APIVersion: v1
+2025-03-15 14:46:25.928 [Information] DeepgramHttpClientOptions: REST BaseAddress does not contain API version: api.deepgram.com
+2025-03-15 14:46:25.929 [Information] DeepgramHttpClientOptions: BaseAddress contains no protocol: api.deepgram.com/v1
+2025-03-15 14:46:25.930 [Information] DeepgramHttpClientOptions: BaseAddress: https://api.deepgram.com/v1
+2025-03-15 14:46:26.056 [Information] HttpClientFactory.Create: HttpClient ID: DEEPGRAM_HTTP_CLIENT
+2025-03-15 14:46:26.208 [Information] ToFile: filename: test.mp3
+2025-03-15 14:46:26.238 [Information] ToStream: source: {
+  "text": "Hello World!"
+}
+2025-03-15 14:46:26.243 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-15 14:46:26.249 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-15 14:46:27.425 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-15 19:14:31.819 [Information] DeepgramHttpClientOptions: OnPrem: False
+2025-03-15 19:14:31.851 [Information] DeepgramHttpClientOptions: APIVersion: v1
+2025-03-15 19:14:31.855 [Information] DeepgramHttpClientOptions: REST BaseAddress does not contain API version: api.deepgram.com
+2025-03-15 19:14:31.856 [Information] DeepgramHttpClientOptions: BaseAddress contains no protocol: api.deepgram.com/v1
+2025-03-15 19:14:31.856 [Information] DeepgramHttpClientOptions: BaseAddress: https://api.deepgram.com/v1
+2025-03-15 19:14:31.957 [Information] HttpClientFactory.Create: HttpClient ID: DEEPGRAM_HTTP_CLIENT
+2025-03-15 19:15:03.762 [Information] DeepgramHttpClientOptions: OnPrem: False
+2025-03-15 19:15:03.778 [Information] DeepgramHttpClientOptions: APIVersion: v1
+2025-03-15 19:15:03.782 [Information] DeepgramHttpClientOptions: REST BaseAddress does not contain API version: api.deepgram.com
+2025-03-15 19:15:03.783 [Information] DeepgramHttpClientOptions: BaseAddress contains no protocol: api.deepgram.com/v1
+2025-03-15 19:15:03.784 [Information] DeepgramHttpClientOptions: BaseAddress: https://api.deepgram.com/v1
+2025-03-15 19:15:03.786 [Information] HttpClientFactory.Create: HttpClient ID: DEEPGRAM_HTTP_CLIENT
+2025-03-16 15:22:36.231 [Information] DeepgramHttpClientOptions: OnPrem: False
+2025-03-16 15:22:36.242 [Information] DeepgramHttpClientOptions: APIVersion: v1
+2025-03-16 15:22:36.246 [Information] DeepgramHttpClientOptions: REST BaseAddress does not contain API version: api.deepgram.com
+2025-03-16 15:22:36.247 [Information] DeepgramHttpClientOptions: BaseAddress contains no protocol: api.deepgram.com/v1
+2025-03-16 15:22:36.248 [Information] DeepgramHttpClientOptions: BaseAddress: https://api.deepgram.com/v1
+2025-03-16 15:22:36.341 [Information] HttpClientFactory.Create: HttpClient ID: DEEPGRAM_HTTP_CLIENT
+2025-03-16 15:22:36.433 [Information] ToFile: filename: output_segment_1.mp3
+2025-03-16 15:22:36.437 [Information] ToStream: source: {
+  "text": "Hello!"
+}
+2025-03-16 15:22:36.439 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:22:36.443 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:22:37.677 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:22:37.687 [Information] ToFile: filename: output_segment_2.mp3
+2025-03-16 15:22:37.689 [Information] ToStream: source: {
+  "text": " How can I assist you today?"
+}
+2025-03-16 15:22:37.690 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:22:37.691 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:22:38.050 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:22:38.053 [Information] ToFile: filename: output_segment_3.mp3
+2025-03-16 15:22:38.054 [Information] ToStream: source: {
+  "text": " Let's have a friendly conversation."
+}
+2025-03-16 15:22:38.055 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:22:38.055 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:22:38.407 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:22:38.410 [Information] ToFile: filename: output_segment_4.mp3
+2025-03-16 15:22:38.411 [Information] ToStream: source: {
+  "text": " 😊 How are you doing?"
+}
+2025-03-16 15:22:38.412 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:22:38.413 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:22:38.754 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:24:57.804 [Information] DeepgramHttpClientOptions: OnPrem: False
+2025-03-16 15:24:57.815 [Information] DeepgramHttpClientOptions: APIVersion: v1
+2025-03-16 15:24:57.819 [Information] DeepgramHttpClientOptions: REST BaseAddress does not contain API version: api.deepgram.com
+2025-03-16 15:24:57.820 [Information] DeepgramHttpClientOptions: BaseAddress contains no protocol: api.deepgram.com/v1
+2025-03-16 15:24:57.820 [Information] DeepgramHttpClientOptions: BaseAddress: https://api.deepgram.com/v1
+2025-03-16 15:24:57.822 [Information] HttpClientFactory.Create: HttpClient ID: DEEPGRAM_HTTP_CLIENT
+2025-03-16 15:24:57.851 [Information] ToFile: filename: output_segment_1.mp3
+2025-03-16 15:24:57.855 [Information] ToStream: source: {
+  "text": "Hello!"
+}
+2025-03-16 15:24:57.858 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:24:57.861 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:24:58.729 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:25:00.011 [Information] ToFile: filename: output_segment_2.mp3
+2025-03-16 15:25:00.012 [Information] ToStream: source: {
+  "text": " How can I assist you today?"
+}
+2025-03-16 15:25:00.013 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:25:00.014 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:25:00.322 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:25:02.046 [Information] ToFile: filename: output_segment_3.mp3
+2025-03-16 15:25:02.048 [Information] ToStream: source: {
+  "text": " If you're up for it, I can tell a joke to start."
+}
+2025-03-16 15:25:02.049 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:25:02.050 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:25:02.640 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:25:05.908 [Information] ToFile: filename: output_segment_4.mp3
+2025-03-16 15:25:05.909 [Information] ToStream: source: {
+  "text": " Here it is:
+
+What do you call a fake noodle?"
+}
+2025-03-16 15:25:05.910 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:25:05.910 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:25:06.470 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:25:08.958 [Information] ToFile: filename: output_segment_5.mp3
+2025-03-16 15:25:08.961 [Information] ToStream: source: {
+  "text": "
+
+An impasta!"
+}
+2025-03-16 15:25:08.962 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:25:08.964 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:25:09.317 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:26:17.237 [Information] DeepgramHttpClientOptions: OnPrem: False
+2025-03-16 15:26:17.250 [Information] DeepgramHttpClientOptions: APIVersion: v1
+2025-03-16 15:26:17.254 [Information] DeepgramHttpClientOptions: REST BaseAddress does not contain API version: api.deepgram.com
+2025-03-16 15:26:17.255 [Information] DeepgramHttpClientOptions: BaseAddress contains no protocol: api.deepgram.com/v1
+2025-03-16 15:26:17.256 [Information] DeepgramHttpClientOptions: BaseAddress: https://api.deepgram.com/v1
+2025-03-16 15:26:17.259 [Information] HttpClientFactory.Create: HttpClient ID: DEEPGRAM_HTTP_CLIENT
+2025-03-16 15:26:17.290 [Information] ToFile: filename: output_segment_1.mp3
+2025-03-16 15:26:17.293 [Information] ToStream: source: {
+  "text": "Hello!"
+}
+2025-03-16 15:26:17.295 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:26:17.298 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:26:18.189 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:26:19.284 [Information] ToFile: filename: output_segment_2.mp3
+2025-03-16 15:26:19.284 [Information] ToStream: source: {
+  "text": " How can I assist you today?"
+}
+2025-03-16 15:26:19.285 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:26:19.286 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:26:19.628 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:26:21.350 [Information] ToFile: filename: output_segment_3.mp3
+2025-03-16 15:26:21.352 [Information] ToStream: source: {
+  "text": " If you're up for it, I can tell a joke to start."
+}
+2025-03-16 15:26:21.353 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:26:21.353 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:26:21.936 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:26:25.174 [Information] ToFile: filename: output_segment_4.mp3
+2025-03-16 15:26:25.175 [Information] ToStream: source: {
+  "text": " Here it is:
+
+What do you call a fake noodle?"
+}
+2025-03-16 15:26:25.176 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:26:25.177 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:26:25.757 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:26:28.267 [Information] ToFile: filename: output_segment_5.mp3
+2025-03-16 15:26:28.270 [Information] ToStream: source: {
+  "text": "
+
+An impasta!"
+}
+2025-03-16 15:26:28.271 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:26:28.272 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:26:28.594 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:30:58.623 [Information] DeepgramHttpClientOptions: OnPrem: False
+2025-03-16 15:30:58.635 [Information] DeepgramHttpClientOptions: APIVersion: v1
+2025-03-16 15:30:58.639 [Information] DeepgramHttpClientOptions: REST BaseAddress does not contain API version: api.deepgram.com
+2025-03-16 15:30:58.641 [Information] DeepgramHttpClientOptions: BaseAddress contains no protocol: api.deepgram.com/v1
+2025-03-16 15:30:58.642 [Information] DeepgramHttpClientOptions: BaseAddress: https://api.deepgram.com/v1
+2025-03-16 15:30:58.644 [Information] HttpClientFactory.Create: HttpClient ID: DEEPGRAM_HTTP_CLIENT
+2025-03-16 15:30:58.671 [Information] ToFile: filename: output.mp3
+2025-03-16 15:30:58.674 [Information] ToStream: source: {
+  "text": "Hello! How can I assist you today? If you're up for it, I'd love to share a fun fact or a interesting topic to kick things off. How does that sound?"
+}
+2025-03-16 15:30:58.676 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:30:58.680 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:31:00.023 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:34:55.132 [Information] DeepgramHttpClientOptions: OnPrem: False
+2025-03-16 15:34:55.135 [Information] DeepgramHttpClientOptions: APIVersion: v1
+2025-03-16 15:34:55.136 [Information] DeepgramHttpClientOptions: REST BaseAddress does not contain API version: api.deepgram.com
+2025-03-16 15:34:55.136 [Information] DeepgramHttpClientOptions: BaseAddress contains no protocol: api.deepgram.com/v1
+2025-03-16 15:34:55.137 [Information] DeepgramHttpClientOptions: BaseAddress: https://api.deepgram.com/v1
+2025-03-16 15:34:55.138 [Information] HttpClientFactory.Create: HttpClient ID: DEEPGRAM_HTTP_CLIENT
+2025-03-16 15:34:55.139 [Information] ToFile: filename: output.mp3
+2025-03-16 15:34:55.140 [Information] ToStream: source: {
+  "text": "Fyodor Dostoevsky... he was a Russian novelist... born in 1821... um, he's known for his... profound psychological insights... into the human condition. Dostoevsky's works... they often explore themes of... suffering, redemption, and... the moral struggles of individuals.
+
+Some of his most famous novels include... "Crime and Punishment"... "The Brothers Karamazov"... and "The Idiot"... uh, these books are known for their... complex characters and... deep philosophical ideas. Dostoevsky's writing... it has had a significant impact on... world literature and... continues to be widely read and studied today."
+}
+2025-03-16 15:34:55.143 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-asteria-en"
+}
+2025-03-16 15:34:55.145 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:34:57.048 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:41:46.542 [Information] DeepgramHttpClientOptions: OnPrem: False
+2025-03-16 15:41:46.554 [Information] DeepgramHttpClientOptions: APIVersion: v1
+2025-03-16 15:41:46.557 [Information] DeepgramHttpClientOptions: REST BaseAddress does not contain API version: api.deepgram.com
+2025-03-16 15:41:46.558 [Information] DeepgramHttpClientOptions: BaseAddress contains no protocol: api.deepgram.com/v1
+2025-03-16 15:41:46.558 [Information] DeepgramHttpClientOptions: BaseAddress: https://api.deepgram.com/v1
+2025-03-16 15:41:46.561 [Information] HttpClientFactory.Create: HttpClient ID: DEEPGRAM_HTTP_CLIENT
+2025-03-16 15:41:46.587 [Information] ToFile: filename: output.mp3
+2025-03-16 15:41:46.591 [Information] ToStream: source: {
+  "text": "Hello! I'm functioning as intended, thank you for asking. How about you? How's your day going? I'm here if you'd like to chat about something. 😊"
+}
+2025-03-16 15:41:46.592 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-luna-en"
+}
+2025-03-16 15:41:46.595 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:41:47.625 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
+2025-03-16 15:44:14.404 [Information] DeepgramHttpClientOptions: OnPrem: False
+2025-03-16 15:44:14.405 [Information] DeepgramHttpClientOptions: APIVersion: v1
+2025-03-16 15:44:14.405 [Information] DeepgramHttpClientOptions: REST BaseAddress does not contain API version: api.deepgram.com
+2025-03-16 15:44:14.406 [Information] DeepgramHttpClientOptions: BaseAddress contains no protocol: api.deepgram.com/v1
+2025-03-16 15:44:14.406 [Information] DeepgramHttpClientOptions: BaseAddress: https://api.deepgram.com/v1
+2025-03-16 15:44:14.407 [Information] HttpClientFactory.Create: HttpClient ID: DEEPGRAM_HTTP_CLIENT
+2025-03-16 15:44:14.408 [Information] ToFile: filename: output.mp3
+2025-03-16 15:44:14.410 [Information] ToStream: source: {
+  "text": "Nihilism is a philosophical position that generally argues that life lacks objective meaning, purpose, or intrinsic value. It comes from the Latin word "nihil," which means "nothing." Nihilism can be understood in several forms, including metaphysical, epistemological, moral, and existential nihilism.
+
+### Types of Nihilism
+
+1. **Metaphysical Nihilism**:
+   - Argues that non-physical or abstract objects do not exist, or that reality is fundamentally null or void.
+   - Questions the existence of abstract concepts like truth, values, or even the existence of a physical world.
+
+2. **Epistemological Nihilism**:
+   - Claims that knowledge is impossible or non-existent.
+   - Rejects the idea that we can have certain knowledge about the world.
+
+3. **Moral Nihilism** (also known as Ethical Nihilism):
+   - Asserts that morality does not exist or is fundamentally subjective and relative.
+   - Rejects the idea of objective moral truths.
+
+4. **Existential Nihilism**:
+   - Believes that life lacks any inherent meaning, purpose, or value.
+   - Often associated with the feeling of existential angst or despair.
+
+### Historical Context
+
+- **Friedrich Nietzsche**: Often associated with nihilism, though he was more of a critic of it. He saw nihilism as a symptom of the decline of traditional values and religious beliefs.
+- **Jean-Paul Sartre**: A key figure in existentialism, Sartre's ideas often intersect with nihilism, particularly in his exploration of existential despair and the absence of intrinsic meaning.
+
+### Criticisms and Responses
+
+- **Criticisms**: Nihilism is often criticized for its pessimistic and potentially destructive implications. It can lead to a sense of despair and a lack of motivation to engage in meaningful activities.
+- **Responses**: Some philosophers and thinkers have responded to nihilism by advocating for the creation of personal meaning, individual values, and purposeful actions even in the absence of objective meaning.
+
+### Practical Implications
+
+- **Personal Freedom**: If life has no inherent meaning, individuals are free to create their own meaning and values.
+- **Ethical Relativism**: Moral nihilism can lead to ethical relativism, where moral standards are seen as subjective and culturally relative.
+
+Nihilism is a complex and multifaceted philosophical position that has influenced various intellectual movements and continues to be a subject of debate and exploration in philosophy, literature, and art."
+}
+2025-03-16 15:44:14.413 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-luna-en"
+}
+2025-03-16 15:44:14.414 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:44:16.036 [Error] PostRetrieveLocalFileAsync<R, S, T>: Deepgram.Models.Exceptions.v1.DeepgramRESTException thrown Input text exceeds maximum character limit of 2000.
+2025-03-16 15:47:39.937 [Information] DeepgramHttpClientOptions: OnPrem: False
+2025-03-16 15:47:39.951 [Information] DeepgramHttpClientOptions: APIVersion: v1
+2025-03-16 15:47:39.955 [Information] DeepgramHttpClientOptions: REST BaseAddress does not contain API version: api.deepgram.com
+2025-03-16 15:47:39.956 [Information] DeepgramHttpClientOptions: BaseAddress contains no protocol: api.deepgram.com/v1
+2025-03-16 15:47:39.957 [Information] DeepgramHttpClientOptions: BaseAddress: https://api.deepgram.com/v1
+2025-03-16 15:47:39.959 [Information] HttpClientFactory.Create: HttpClient ID: DEEPGRAM_HTTP_CLIENT
+2025-03-16 15:47:39.985 [Information] ToFile: filename: output.mp3
+2025-03-16 15:47:39.989 [Information] ToStream: source: {
+  "text": "Christianity is a monotheistic religion based on the life, teachings, death, and resurrection of Jesus Christ. It is the world's largest religion, with over 2.3 billion followers, known as Christians. Here are some key aspects of Christianity:
+
+### Core Beliefs:
+1. **Monotheism**: Christians believe in one God, who is the creator of all things.
+2. **Trinity**: Many Christians believe in the doctrine of the Trinity, which holds that God is one being in three persons: the Father, the Son (Jesus Christ), and the Holy Spirit.
+3. **Jesus Christ**: Jesus is central to Christian belief. Christians believe that Jesus is both fully God and fully human. His life, teachings, crucifixion, and resurrection are fundamental to the faith.
+4. **Salvation**: Christians believe that salvation comes through faith in Jesus Christ, who died on the cross to atone for human sin and was resurrected to provide eternal life.
+5. **Scripture**: The Bible, comprising the Old Testament and the New Testament, is considered the sacred text of Christianity. It includes stories, teachings, and prophecies that guide Christian beliefs and practices.
+
+### Practices:
+1. **Worship**: Christians gather for worship services, which often include prayers, hymns, readings from the Bible, and sermons.
+2. **Sacraments**: Many Christian denominations recognize sacraments, such as baptism and the Eucharist (Communion). Baptism symbolizes a person's initiation into the Christian faith, and the Eucharist commemorates Jesus' last supper with his disciples.
+3. **Prayer**: Prayer is a fundamental practice in Christianity, allowing individuals to communicate with God.
+4. **Ethics and Morality**: Christian ethics are based on the teachings of Jesus and the Bible, emphasizing love, forgiveness, mercy, and justice.
+
+### Denominations:
+Christianity is composed of several major branches, each with its own traditions, beliefs, and practices:
+1. **Roman Catholicism**: The largest Christian denomination, with a centralized hierarchy led by the Pope.
+2. **Eastern Orthodoxy**: A group of autocephalous churches that share common beliefs and practices but are not under a single hierarchical structure.
+3. **Protestantism**: A diverse group of denominations that emerged from the Reformation in the 16th century, including Lutheranism, Anglicanism, Baptist, Methodist, and many others.
+
+### Historical Context:
+1. **Origins**: Christianity originated in the 1st century AD within the context of Second Temple Judaism in the Levant.
+2. **Spread**: It spread rapidly throughout the Roman Empire and beyond, becoming the state religion of the Roman Empire under Emperor Constantine in the 4th century.
+3. **Development**: Over the centuries, Christianity has evolved and diversified, influenced by various cultural, political, and theological factors.
+
+### Significance:
+Christianity has had a profound impact on world history, culture, art, philosophy, and ethics. It has influenced legal systems, social norms, and educational institutions, and continues to be a significant force in contemporary society.
+
+In summary, Christianity is a complex and multifaceted religion with a rich history and diverse practices, all centered around the life and teachings of Jesus Christ."
+}
+2025-03-16 15:47:39.994 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-luna-en"
+}
+2025-03-16 15:47:39.997 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:47:41.862 [Error] PostRetrieveLocalFileAsync<R, S, T>: Deepgram.Models.Exceptions.v1.DeepgramRESTException thrown Input text exceeds maximum character limit of 2000.
+2025-03-16 15:49:49.675 [Information] DeepgramHttpClientOptions: OnPrem: False
+2025-03-16 15:49:49.688 [Information] DeepgramHttpClientOptions: APIVersion: v1
+2025-03-16 15:49:49.693 [Information] DeepgramHttpClientOptions: REST BaseAddress does not contain API version: api.deepgram.com
+2025-03-16 15:49:49.694 [Information] DeepgramHttpClientOptions: BaseAddress contains no protocol: api.deepgram.com/v1
+2025-03-16 15:49:49.694 [Information] DeepgramHttpClientOptions: BaseAddress: https://api.deepgram.com/v1
+2025-03-16 15:49:49.697 [Information] HttpClientFactory.Create: HttpClient ID: DEEPGRAM_HTTP_CLIENT
+2025-03-16 15:49:49.728 [Information] ToFile: filename: output.mp3
+2025-03-16 15:49:49.733 [Information] ToStream: source: {
+  "text": "Hello! How can I assist you today? Let's have a friendly conversation. 😊 How are you doing?"
+}
+2025-03-16 15:49:49.736 [Information] ToStream: analyzeSchema:
+{
+  "model": "aura-luna-en"
+}
+2025-03-16 15:49:49.739 [Information] PostRetrieveLocalFileAsync<R, S, T>: Using default timeout: 30000
+2025-03-16 15:49:50.864 [Information] ToStream: https://api.deepgram.com/v1/speak Succeeded
